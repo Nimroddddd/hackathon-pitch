@@ -7,7 +7,7 @@ export default function Features() {
     <div className="mt-10">
       <h1 className="mb-8 text-3xl font-semibold"><span className="underline">Fea</span>tures</h1>
       <div className="flex gap-3">
-        <div>
+        <div className='hover:scale-110 duration-300'>
           <p className="text-xl font-semibold mb-2"><AnalyticsIcon fontSize='medium' />Market Analysis</p>
           <p>
             • Data Sources: Integrates with multiple APIs to fetch real-time and historical data
@@ -18,7 +18,7 @@ export default function Features() {
             fundamental data for decision-making.
           </p>
         </div>
-        <div>
+        <div className='hover:scale-110 duration-300'>
           <p className="text-xl font-semibold mb-2"><PsychologyAltIcon fontSize='medium' />2. Strategy Implementation</p>
           <p>
           •	Algorithms: Employs rule-based strategies, machine learning models, or reinforcement learning for trading decisions.
@@ -27,7 +27,7 @@ export default function Features() {
           •	Risk Management: Implements stop-loss orders, take-profit thresholds, and portfolio diversification to reduce risk.
           </p>
         </div>
-        <div>
+        <div className='hover:scale-110 duration-300'>
           <p className="text-xl font-semibold mb-2"><CodeIcon /> 3. Execution Engine</p>
           <p>
             •	Trade Placement: Interfaces with broker APIs for executing buy/sell orders.
