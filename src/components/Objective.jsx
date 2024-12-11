@@ -6,11 +6,16 @@ export default function Objective() {
          without human intervention. The goal is to leverage advanced algorithms and data-driven insights to achieve consistent
          profitability while minimizing risk. It also has primary objectives of solving 2 main problems traders often face:
       </p>
-      <p className="mt-2">
-        • <span className="underline">Emotional Trading</span>: Emotional trading occurs when traders make decisions based on their 
-        emotions rather than logical analysis. This can lead to impulsive trades, excessive risk-taking, and ultimately, losses.
-        The Tradoor Agent is here to fix that major problem by 
-      </p>
+      <div className="flex mt-5 gap-6">
+        <img src="/images/meme.png" />
+        <div>
+          <p className="mt-2">
+            • <span className="underline">Emotional Trading</span>: Emotional trading occurs when traders make decisions based on their 
+            emotions rather than logical analysis. This can lead to impulsive trades, excessive risk-taking, and ultimately, losses.
+            The Tradegent Agent is here to fix that major problem by 
+          </p>
+        </div>
+      </div>
     </div>
   )
 }
