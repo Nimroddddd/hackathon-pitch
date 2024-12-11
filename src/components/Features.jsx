@@ -5,7 +5,7 @@ import CodeIcon from '@mui/icons-material/Code';
 export default function Features() {
   return (
     <div className="mt-10">
-      <h1 className="mb-8 text-3xl text-center"><span className="underline">Fea</span>tures</h1>
+      <h1 className="mb-8 text-3xl font-semibold"><span className="underline">Fea</span>tures</h1>
       <div className="flex gap-3">
         <div>
           <p className="text-xl font-semibold mb-2"><AnalyticsIcon fontSize='medium' />Market Analysis</p>
