@@ -6,7 +6,7 @@ export default function Objective() {
          without human intervention. The goal is to leverage advanced algorithms and data-driven insights to achieve consistent
          profitability while minimizing risk. It also has primary objectives of solving 2 main problems traders often face:
       </p>
-      <div className="flex mt-5 gap-6">
+      <div className="flex mt-5 gap-6 hover:scale-110 duration-300">
         <img src="/images/meme.png" />
         <div>
           <p className="mt-2">
@@ -16,6 +16,15 @@ export default function Objective() {
             relevant trades on behalf of them using the collected data.
           </p>
         </div>
+      </div>
+      <div className="flex gap-6 mt-5 hover:scale-110 duration-300">
+        <img src="/images/chart.webp" />
+        <p className="mt-2">
+          • <span className="underline font-semibold">Risk Mitigation</span>: Tradegent is built with various 
+          strategies and mechanisms designed to minimize potential losses and ensure stability 
+          in trading operations. It uses real-time market trends, placing stop-loss orders and hedging against adverse movements
+          to minimize exposure to sudden price fluctuations or unfavourable market conditions.
+        </p>
       </div>
     </div>
   )
